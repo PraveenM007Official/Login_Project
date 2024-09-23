@@ -1,0 +1,108 @@
+﻿.reg {
+    background-color: #434343;
+    color: white;
+    font-size: 25px;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container_reg {
+    background-image: radial-gradient(#48c6ef,#6f86d6);
+    font-size: 20px;
+    width: 580px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 40px;
+    gap: 5px;
+    border-style: hidden;
+    border-radius: 30px;
+    perspective: 1px;
+    box-shadow: 0 1px #514242;
+}
+
+.space_reg {
+    margin-bottom: 25px;
+}
+
+.field_reg {
+    width: 250px;
+    height: 28px;
+    margin-right: 0px;
+}
+
+.mouse_reg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 520;
+    background-image: radial-gradient(#00cc44,#009933);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 3px #666;
+}
+
+    .mouse_reg:active {
+        background-image: radial-gradient(#00cc44,#009933);
+        box-shadow: 0 1px #666;
+        transform: translateY(2px);
+    }
+
+.btn_reg {
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 250px;
+    border-style: solid;
+    border-color: rgb(0 203 26);
+    border-radius: 40px;
+    perspective: 1px;
+}
+
+.btn_reg1 {
+    width: 250px;
+    border-style: solid;
+    border-color: rgb(0 203 26);
+    border-radius: 40px;
+    perspective: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 520;
+    background-image: radial-gradient(#00cc44,#009933);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 3px #666;
+}
+
+    .btn_reg1:active {
+        background-image: radial-gradient(#00cc44,#009933);
+        box-shadow: 0 1px #666;
+        transform: translateY(2px);
+    }
+
+.button_reg {
+    display: flex;
+    flex-direction: column;
+}
+
+.link_reg {
+    margin-top: 10px;
+    margin-left: 380px;
+}
+
+#RangeValidator1 {
+    float: right;
+    margin-right: 136px;
+}
+
+.response {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    z-index: 1;
+}
